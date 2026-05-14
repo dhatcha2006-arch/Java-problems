@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Grade {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Your mark : ");
+        int mark = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter name : ");
+        String name = sc.nextLine();
+        System.out.println("Name : "+name);
+
+        if (mark>=90 && mark<=100){
+            System.out.println("Grade - A");
+        }
+        else if (mark>=75 && mark<90) {
+            System.out.println("Grade - B");
+        }
+        else if (mark>=50 && mark<75) {
+            System.out.println("Grade - C");
+        }
+        else if (mark<50 && mark>=0) {
+            System.out.println("Fail");
+        }
+        else{
+            System.out.println("Invalid..!");
+        }
+    }
+}
