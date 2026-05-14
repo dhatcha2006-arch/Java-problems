@@ -1,3 +1,5 @@
+//Display the total number of vowels present in the input.
+
 import java.util.*;
 
 public class Vowel{
