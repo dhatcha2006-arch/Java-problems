@@ -1,0 +1,17 @@
+/* Number Mirror
+Write a program that takes a number N
+N as the input, and prints it to the output.  */
+
+import java.util.Scanner; 
+class Codechef
+{
+	public static void main (String[] args)
+	{
+	    // Do not print anything here before taking input
+	    Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+        System.out.println(n);
+        return;
+	}
+}
